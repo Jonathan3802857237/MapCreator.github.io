@@ -136,6 +136,7 @@ let logicalHeight = window.innerHeight;
 
 function resize() {
 	// Resize the renderer
+  viewportCulling(levelContainer);
 	app.renderer.resize(window.innerWidth, window.innerHeight);
 
   levelContainer.x = window.innerWidth/2;
