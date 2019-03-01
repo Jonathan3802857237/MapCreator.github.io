@@ -147,8 +147,8 @@ function resize() {
 window.addEventListener('resize', resize);
 
 //Amount of blocks on x and y axis
-let levelWidth  = 100;
-let levelHeight = 100;
+let levelWidth  = 250;
+let levelHeight = 250;
 
 let level = new Array();
 for (var i = 0; i < levelWidth; i++){
