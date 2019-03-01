@@ -1,0 +1,66 @@
+body{
+  background-color: #191919;
+  margin:0;
+}
+
+canvas {
+  position: absolute;
+  left: 50%;
+  top:0;
+  transform: translate(-50%, 0);
+  z-index:0;
+}
+
+.overlay{
+  position:absolute;
+  z-index:1;
+}
+
+.popUp{
+  display:none;
+  z-index: 2;
+}
+
+#uploadMapForm{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  background-color: #151515;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.uploadMapFormElements{
+  position: relative;
+  left:50%;
+  transform: translate(-50%, 0);
+  margin-right: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#mapImportFormButton{
+  left:102px;
+}
+
+#importMapForm{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  background-color: #151515;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.uploadMapFormElements{
+  position: relative;
+  left:50%;
+  transform: translate(-50%, 0);
+  margin-right: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
